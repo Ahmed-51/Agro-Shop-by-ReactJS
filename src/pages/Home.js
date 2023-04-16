@@ -4,7 +4,6 @@ import Category from '../components/Topcatagories'
 import Solution from '../components/Solution'
 import Cards from '../components/Cards'
 import MainProducts from '../components/MainProducts'
-import Formview from '../components/Formview'
 
 
 const Home = () => {
@@ -15,7 +14,6 @@ const Home = () => {
       <Solution />
       <Cards />
       <MainProducts />
-      <Formview />
     </>
   )
 }

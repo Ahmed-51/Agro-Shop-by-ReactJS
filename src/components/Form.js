@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
-function MyForm() {
+function Form() {
   const [inputs, setInputs] = useState({});
 
   const handleChange = (event) => {
@@ -34,7 +34,7 @@ function MyForm() {
           onChange={handleChange}
         />
         </label>
-    
+
         <textarea         
             type="number" 
             name="age" 
@@ -48,5 +48,4 @@ function MyForm() {
   )
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<MyForm />);
+export default Form
